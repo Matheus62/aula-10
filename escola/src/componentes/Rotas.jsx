@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, Router} from "react-router-dom";
 
 import Home from "./paginas/home";
 import Cadastro from "./paginas/cadastro";
@@ -11,7 +11,12 @@ export default function Rotas()
 {
     return
     (
-        
+        <BrowserRouter>
+            <Router>
+             
+             
+            </Router>
+        </BrowserRouter>
 
     );
 }
