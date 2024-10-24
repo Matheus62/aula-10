@@ -1,10 +1,8 @@
 export default function Home()
 {
-    return
-    (
+    return (
         <div>
-            <h1>Aula 10 - Projeto Escola com MySql</h1>
+            <h1>Home</h1>
         </div>
-
-    )
+    );
 }

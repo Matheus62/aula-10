@@ -1,11 +1,9 @@
 import './App.css';
-import Rotas from "./Componentes/Rotas"
-
-
+import Rotas from './Componentes/Rotas';
 
 function App() {
   return (
-    <div>      
+    <div>
       <Rotas />
     </div>
   );
