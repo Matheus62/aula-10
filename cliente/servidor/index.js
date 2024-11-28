@@ -43,7 +43,7 @@ app.post("/alunos",(req, res) => {
 
 });
 app.get("/alunos",(req, res) => {
-    const sql = 'SELECT * FROM aluno';
+    const sql = 'SELECT * FROM alunos';
 
     db.query(sql, (err, results) => {
         if(err)
